@@ -148,13 +148,6 @@
   .outcard .oc-why{font-size:.82rem;color:var(--ink-soft)}
   .outcard a{font-size:.78rem}
 
-  /* ---- new candidates ---- */
-  .newcard{border:1px solid var(--line-strong);border-radius:5px;padding:18px 20px;background:rgba(78,107,79,.07)}
-  .newcard h4{font-family:'Fraunces',serif;font-weight:500;font-size:1.1rem;line-height:1.15}
-  .newcard .nc-cost{font-weight:700;color:var(--green);font-size:.84rem;margin:6px 0}
-  .newcard .nc-why{font-size:.82rem;color:var(--ink-soft)}
-  .newcard a{font-size:.78rem}
-
   /* ---- the call ---- */
   .call{margin:56px 0 0;background:var(--ink);color:var(--paper);border-radius:8px;padding:44px 40px;position:relative;overflow:hidden}
   .call::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(169,119,43,.4),transparent 70%)}
@@ -176,6 +169,8 @@
   .card:nth-child(3){animation-delay:.21s}
   .card:nth-child(4){animation-delay:.29s}
   .card:nth-child(5){animation-delay:.37s}
+  .card:nth-child(6){animation-delay:.45s}
+  .card:nth-child(7){animation-delay:.53s}
   .card{transition:transform .3s ease, box-shadow .3s ease}
   .card:hover{transform:translateY(-3px);box-shadow:0 1px 0 rgba(255,255,255,.6) inset,0 26px 50px -26px rgba(33,37,46,.55)}
   @media print {
@@ -195,7 +190,7 @@
   <header class="mast">
     <div class="kicker">Decision Dossier · Updated August 2026</div>
     <h1>Lead our <em>AI rollout</em></h1>
-    <p class="dek">Four deep-dived contenders for leading a finance organization through an AI rollout, a three-program August shortlist, and eleven checked and ruled out. Still no decision. Prepared by Luis Garcia, Finance Director, Good Harbor.</p>
+    <p class="dek">Seven online contenders for leading a finance organization through an AI rollout, plus eleven checked and ruled out. Still no decision. Prepared by Luis Garcia, Finance Director, Good Harbor.</p>
     <div class="mast-meta">
       <span class="pill">Goal: <b>lead the org through AI</b></span>
       <span class="pill">Format: <b>online</b></span>
@@ -206,7 +201,7 @@
   <!-- COMPARISON TABLE -->
   <section class="sec">
     <h2 class="sec-h"><span>01</span> At a glance</h2>
-    <p class="sec-sub">The four deep-dived contenders, in no particular order. The tag on each flags what it leads with. The August shortlist sits in section 03.</p>
+    <p class="sec-sub">The seven online contenders, in no particular order. The tag on each flags what it leads with.</p>
     <div class="tablewrap">
       <table>
         <thead>
@@ -240,6 +235,27 @@
             <td>Online<br>6 wks · 4-6 hr/wk<br><span style="font-size:.72rem;color:var(--ink-soft)">Next cohort Aug 19</span></td>
             <td>Custom AI adoption playbook</td>
             <td><a class="lnk" href="https://www.getsmarter.com/products/mit-sloan-ai-adoption-online-short-course" target="_blank">getsmarter.com</a></td>
+          </tr>
+          <tr class="hl">
+            <td><span class="pname">Agentic AI: Strategy, Applications and Organizational Impact</span><br><span class="pprov">UC Berkeley Haas</span><br><span class="tag fit">Agentic edge</span></td>
+            <td class="cost">$3,550</td>
+            <td>Live online<br>5 wks · 4-5 hr/wk<br><span style="font-size:.72rem;color:var(--ink-soft)">Next: Sep 24 - Nov 5</span></td>
+            <td>Agentic AI strategy project</td>
+            <td><a class="lnk" href="https://executive.berkeley.edu/programs/agentic-ai-strategy-applications-and-organizational-impact" target="_blank">berkeley.edu</a></td>
+          </tr>
+          <tr class="hl">
+            <td><span class="pname">Transforming Your Business with AI</span><br><span class="pprov">INSEAD</span><br><span class="tag pick">Project capstone</span></td>
+            <td class="cost">~$2,450<br><span style="font-size:.72rem;color:var(--ink-soft)">EUR 2,100</span></td>
+            <td>Cohort online<br>5 content wks + project<br><span style="font-size:.72rem;color:var(--ink-soft)">Next: Sep 21 · apply by Sep 7</span></td>
+            <td>Action Learning Project</td>
+            <td><a class="lnk" href="https://www.insead.edu/executive-education/open-online-programmes/transform-business-ai" target="_blank">insead.edu</a></td>
+          </tr>
+          <tr class="hl">
+            <td><span class="pname">AI for Leaders</span><br><span class="pprov">Harvard Business School Online</span><br><span class="tag value">Brand per dollar</span></td>
+            <td class="cost">$1,949</td>
+            <td>Self-paced · 90-day access<br>16-20 hrs total<br><span style="font-size:.72rem;color:var(--ink-soft)">Start anytime</span></td>
+            <td>Counts toward an HBS Online specialization</td>
+            <td><a class="lnk" href="https://online.hbs.edu/courses/ai-for-leaders" target="_blank">online.hbs.edu</a></td>
           </tr>
         </tbody>
       </table>
@@ -430,38 +446,137 @@
         </div>
       </article>
 
-    </div>
-  </section>
+      <!-- BERKELEY -->
+      <article class="card">
+        <div class="top">
+          <span class="cardbadge fit">Agentic edge</span>
+          <span class="rank">UC Berkeley Haas</span>
+          <h3>Agentic AI: Strategy, Applications and Organizational Impact</h3>
+          <div class="prov">UC Berkeley Executive Education, Haas School of Business</div>
+          <div class="chips">
+            <span class="chip"><b>$3,550</b></span>
+            <span class="chip">Live online · 5 faculty sessions</span>
+            <span class="chip">5 weeks · 4-5 hr/wk</span>
+            <span class="chip">Next: Sep 24 - Nov 5</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="block curric">
+            <div class="blabel">Themes · 5 live sessions</div>
+            <ol class="mods">
+              <li>How agentic AI systems operate, limits and challenges</li>
+              <li>Identifying and scaling high-impact use cases</li>
+              <li>Preparing the org: structure, culture, talent, operating model</li>
+              <li>Measuring outcomes and articulating ROI</li>
+              <li>Governance, security, compliance and oversight</li>
+            </ol>
+          </div>
+          <div class="block">
+            <div class="blabel">Strong points</div>
+            <ul class="strong">
+              <li>The only agentic AI program on the page</li>
+              <li>Live Haas faculty sessions plus facilitator office hours</li>
+              <li>Capstone: an agentic AI strategy for a real business challenge</li>
+              <li>Senior-leader peer cohort</li>
+            </ul>
+          </div>
+        </div>
+        <div class="why">
+          <div class="blabel">Why it matters</div>
+          <p>Agentic AI is exactly the stack already running inside the finance team: agents for reconciliation, invoices, and reporting. No other program teaches how to govern, measure, and scale that specifically, and it comes with live faculty access instead of recorded lectures.</p>
+          <p class="caveat"><b>The catch:</b> live sessions mean fixed times, the content assumes no build experience so parts will be review, and the brand lands a notch below MIT or Harvard in a CRE boardroom.</p>
+        </div>
+      </article>
 
-  <!-- NEW CANDIDATES -->
-  <section class="sec">
-    <h2 class="sec-h"><span>03</span> The August shortlist</h2>
-    <p class="sec-sub">The sweep checked seven new candidates after the budget cap moved up. These three fit the goal; the other four went straight to section 04. Summary depth for now, full read next.</p>
-    <div class="out">
-      <div class="newcard">
-        <h4>Agentic AI: Strategy, Applications and Organizational Impact</h4>
-        <div class="nc-cost">$3,550 · live online · 5 wks · 4-5 hr/wk · starts Sep 24</div>
-        <p class="nc-why">UC Berkeley Haas. Senior-leader adoption and governance of agentic AI, with live faculty sessions and an applied final project. The only program on this page built around agentic AI itself.</p>
-        <a class="lnk" href="https://executive.berkeley.edu/programs/agentic-ai-strategy-applications-and-organizational-impact" target="_blank">executive.berkeley.edu</a>
-      </div>
-      <div class="newcard">
-        <h4>Transforming Your Business with AI</h4>
-        <div class="nc-cost">~$2,450 (EUR 2,100) · cohort online · 5 wks + project · starts Sep 21, apply by Sep 7</div>
-        <p class="nc-why">INSEAD. A transformation-leadership arc that ends in an Action Learning Project with peer review. The cheapest live-cohort option in the race.</p>
-        <a class="lnk" href="https://www.insead.edu/executive-education/open-online-programmes/transform-business-ai" target="_blank">insead.edu</a>
-      </div>
-      <div class="newcard">
-        <h4>AI for Leaders</h4>
-        <div class="nc-cost">$1,949 · self-paced · 16-20 hrs total · start anytime</div>
-        <p class="nc-why">Harvard Business School Online. The Iansiti/Lakhani AI-native organization curriculum: closing the adoption gap, scaling, GenAI in the workforce. The most brand per dollar on the page, and it stacks toward an HBS Online specialization.</p>
-        <a class="lnk" href="https://online.hbs.edu/courses/ai-for-leaders" target="_blank">online.hbs.edu</a>
-      </div>
+      <!-- INSEAD -->
+      <article class="card">
+        <div class="top">
+          <span class="cardbadge pick">Project capstone</span>
+          <span class="rank">INSEAD</span>
+          <h3>Transforming Your Business with AI</h3>
+          <div class="prov">INSEAD open online programme</div>
+          <div class="chips">
+            <span class="chip"><b>~$2,450</b> (EUR 2,100)</span>
+            <span class="chip">Cohort online + learning coach</span>
+            <span class="chip">5 content weeks + project</span>
+            <span class="chip">Next: Sep 21 · apply by Sep 7</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="block curric">
+            <div class="blabel">Structure · 8 weeks all-in</div>
+            <ol class="mods">
+              <li>Launch week, then five content weeks online</li>
+              <li>Frameworks to align AI strategy with business goals</li>
+              <li>Designing and implementing AI initiatives across operations</li>
+              <li>Leading AI-era change across the organisation</li>
+              <li>Action Learning Project with peer review (2 project weeks)</li>
+            </ol>
+          </div>
+          <div class="block">
+            <div class="blabel">Strong points</div>
+            <ul class="strong">
+              <li>Ends in a real transformation project, peer reviewed</li>
+              <li>Cheapest live-cohort option of the seven</li>
+              <li>Learning coach support through the project</li>
+              <li>Top-tier global brand</li>
+            </ul>
+          </div>
+        </div>
+        <div class="why">
+          <div class="blabel">Why it matters</div>
+          <p>The Action Learning Project is the differentiator: the program forces a finished, reviewed transformation plan for the participant's own organization, which is the artifact a rollout actually needs.</p>
+          <p class="caveat"><b>The catch:</b> weekly hours are not published, the brand carries less weight with US commercial real estate investors than MIT or Harvard, and applications close Sep 7.</p>
+        </div>
+      </article>
+
+      <!-- HBS ONLINE -->
+      <article class="card">
+        <div class="top">
+          <span class="cardbadge value">Brand per dollar</span>
+          <span class="rank">HBS Online</span>
+          <h3>AI for Leaders</h3>
+          <div class="prov">Harvard Business School Online · Iansiti / Lakhani</div>
+          <div class="chips">
+            <span class="chip"><b>$1,949</b></span>
+            <span class="chip">Self-paced · 90-day access</span>
+            <span class="chip">16-20 hrs total · start anytime</span>
+            <span class="chip">Stacks toward an HBS specialization</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="block curric">
+            <div class="blabel">Curriculum · 4 modules</div>
+            <ol class="mods">
+              <li>AI today: closing the capability-adoption gap</li>
+              <li>The AI factory and ethics</li>
+              <li>Scaling and transformation</li>
+              <li>Competitive advantage with GenAI, including agentic AI</li>
+            </ol>
+          </div>
+          <div class="block">
+            <div class="blabel">Strong points</div>
+            <ul class="strong">
+              <li>The AI-native organization curriculum, adoption not fundamentals</li>
+              <li>Cheapest and lightest lift of the seven</li>
+              <li>Starts anytime, survives any close calendar</li>
+              <li>Two more courses earn a Certificate of Specialization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="why">
+          <div class="blabel">Why it matters</div>
+          <p>The most recognizable brand per dollar anywhere on the page, built around scaling adoption rather than explaining AI. At 16 to 20 total hours on your own schedule, it is the only option with zero calendar risk.</p>
+          <p class="caveat"><b>The catch:</b> it is the lightest program here, frameworks and cases rather than a coached transformation, and the credential is a course certificate, not an executive-education cohort.</p>
+        </div>
+      </article>
+
     </div>
   </section>
 
   <!-- RULED OUT -->
   <section class="sec">
-    <h2 class="sec-h"><span>04</span> Checked and ruled out</h2>
+    <h2 class="sec-h"><span>03</span> Checked and ruled out</h2>
     <p class="sec-sub">Strong programs, but each is in-person, over budget, or too light for an experienced builder.</p>
     <div class="out">
       <div class="outcard">
@@ -554,12 +669,24 @@
         <h5>MIT Sloan</h5>
         <p>The loudest name, and the only program built start to finish around adoption itself. Short, on-goal, posted price.</p>
       </div>
+      <div class="opt">
+        <h5>Berkeley Haas</h5>
+        <p>The only agentic AI program on the page, live faculty, September start.</p>
+      </div>
+      <div class="opt">
+        <h5>INSEAD</h5>
+        <p>A peer-reviewed transformation project at the lowest live-cohort price.</p>
+      </div>
+      <div class="opt">
+        <h5>HBS Online</h5>
+        <p>The lightest lift with the most brand per dollar. Starts anytime.</p>
+      </div>
     </div>
-    <p class="verdict">No winner named yet, on purpose. The four deep-dives stay on the board, the August sweep added three that fit (Berkeley, INSEAD, HBS Online), and the cohort dates above set the real deadline for a decision.</p>
+    <p class="verdict">No winner named yet, on purpose. Four contenders came from the June deep-dive, three from the August sweep, and the cohort dates above set the real deadline for a decision.</p>
   </section>
 
   <footer>
-    <b>Prepared by Luis Garcia</b> · June 2026, dates and prices re-verified Aug 1, 2026, when a wider sweep with a higher budget cap added three programs to the shortlist and four more to the ruled-out list. Programs, prices, formats and module lists checked against each provider's official page. Discounts move: Cornell's 30% codes come and go (the last one lapsed Jul 31), MIT's GROW2026 code ends Aug 11, and cohort dates shift, so confirm at enrollment. This is a decision aid, not an endorsement.
+    <b>Prepared by Luis Garcia</b> · June 2026, dates and prices re-verified Aug 1, 2026, when a wider sweep with a higher budget cap added three contenders and four more to the ruled-out list. Programs, prices, formats and module lists checked against each provider's official page. Discounts move: Cornell's 30% codes come and go (the last one lapsed Jul 31), MIT's GROW2026 code ends Aug 11, and cohort dates shift, so confirm at enrollment. This is a decision aid, not an endorsement.
   </footer>
 
 </div>
