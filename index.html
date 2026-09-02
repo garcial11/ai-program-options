@@ -105,6 +105,7 @@
     box-shadow:var(--shadow);overflow:hidden;position:relative;
     opacity:0;transform:translateY(18px);animation:rise .8s forwards;
   }
+  .card.enterprise-first{order:-1}
   .card .top{padding:26px 30px 20px;border-bottom:1px dashed var(--line-strong);position:relative}
   .card .rank{
     font-family:'Fraunces',serif;font-size:.95rem;font-weight:600;color:var(--gold-deep);
@@ -191,7 +192,7 @@
   <header class="mast">
     <div class="kicker">Decision Dossier · Updated September 2026</div>
     <h1>Lead our <em>AI rollout</em></h1>
-    <p class="dek">Nine online contenders for leading a finance organization through an AI rollout, plus twenty-three checked and ruled out. The first option is Wharton's Strategies for Accountable AI, the board-weight governance credential; MIT Sloan's new Enterprise AI course is the all-in-one option, while its shorter AI Adoption course holds the focused adoption pick and Carnegie Mellon the technical pick. Prepared by Luis Garcia, Finance Director, Good Harbor.</p>
+    <p class="dek">Nine online contenders for leading a finance organization through an AI rollout, plus twenty-three checked and ruled out. MIT Sloan's new Enterprise AI course is now the first option and the strongest all-in-one route; Wharton provides the governance depth, its shorter MIT sibling remains a focused adoption option, and Carnegie Mellon the technical pick. Prepared by Luis Garcia, Finance Director, Good Harbor.</p>
     <div class="mast-meta">
       <span class="pill">Goal: <b>lead the org through AI</b></span>
       <span class="pill">Format: <b>online</b></span>
@@ -210,21 +211,21 @@
         </thead>
         <tbody>
           <tr class="hl">
-            <td><span class="pname">Strategies for Accountable AI</span><br><span class="pprov">Wharton Executive Education (in-house)</span><br><span class="tag best">First option · Governance</span></td>
-            <td class="cost">$8,000</td>
-            <td>Live online<br>9 wks · Fri 90-min + async<br><span style="font-size:.72rem;color:var(--ink-soft)">Sep 25 - Nov 20 · spring cohort Mar 3</span></td>
-            <td>Impact assessment of one of your own AI systems</td>
-            <td><a class="lnk" href="https://executiveeducation.wharton.upenn.edu/for-individuals/all-programs/strategies-for-accountable-ai/" target="_blank">wharton.upenn.edu</a></td>
-          </tr>
-          <tr class="hl">
-            <td><span class="pname">Enterprise AI: Strategy, Implementation, and Integration</span><br><span class="pprov">MIT Sloan Executive Education (via GetSmarter)</span><br><span class="tag best">All-in-one option</span></td>
+            <td><span class="pname">Enterprise AI: Strategy, Implementation, and Integration</span><br><span class="pprov">MIT Sloan Executive Education (via GetSmarter)</span><br><span class="tag best">First option · All-in-one</span></td>
             <td class="cost">$8,250</td>
             <td>Self-paced online<br>17 wks · 6-8 hr/wk<br><span style="font-size:.72rem;color:var(--ink-soft)">Sep 9, 2026 - Feb 2, 2027 · next Jan 20</span></td>
             <td>Four board-ready deliverables, including a valuation toolkit, capability matrix, and integrated AI strategy</td>
             <td><a class="lnk" href="https://executive.mit.edu/course/enterprise-ai/a05U100000FDXf3IAH.html" target="_blank">executive.mit.edu</a></td>
           </tr>
           <tr class="hl">
-            <td><span class="pname">AI Adoption: Driving Business Value and Impact</span><br><span class="pprov">MIT Sloan (via GetSmarter)</span><br><span class="tag best">Best pick · Adoption</span></td>
+            <td><span class="pname">Strategies for Accountable AI</span><br><span class="pprov">Wharton Executive Education (in-house)</span><br><span class="tag pick">Governance depth</span></td>
+            <td class="cost">$8,000</td>
+            <td>Live online<br>9 wks · Fri 90-min + async<br><span style="font-size:.72rem;color:var(--ink-soft)">Sep 25 - Nov 20 · spring cohort Mar 3</span></td>
+            <td>Impact assessment of one of your own AI systems</td>
+            <td><a class="lnk" href="https://executiveeducation.wharton.upenn.edu/for-individuals/all-programs/strategies-for-accountable-ai/" target="_blank">wharton.upenn.edu</a></td>
+          </tr>
+          <tr class="hl">
+            <td><span class="pname">AI Adoption: Driving Business Value and Impact</span><br><span class="pprov">MIT Sloan (via GetSmarter)</span><br><span class="tag fit">Focused adoption</span></td>
             <td class="cost">$3,850<br><span style="font-size:.72rem;color:var(--ink-soft)">~$3,273 w/ code GROW2026 by Aug 11</span></td>
             <td>Online<br>6 wks · 4-6 hr/wk<br><span style="font-size:.72rem;color:var(--ink-soft)">Next cohort Aug 19</span></td>
             <td>Custom AI adoption playbook</td>
@@ -287,7 +288,7 @@
       <!-- WHARTON -->
       <article class="card">
         <div class="top">
-          <span class="cardbadge best">First option · Governance</span>
+          <span class="cardbadge pick">Governance depth</span>
           <span class="rank">Wharton</span>
           <h3>Strategies for Accountable AI</h3>
           <div class="prov">Wharton Executive Education, in-house · Kevin Werbach (academic director), Hamsa Bastani, Stefano Puntoni</div>
@@ -329,9 +330,9 @@
       </article>
 
       <!-- MIT SLOAN ENTERPRISE AI -->
-      <article class="card">
+      <article class="card enterprise-first">
         <div class="top">
-          <span class="cardbadge best">All-in-one option</span>
+          <span class="cardbadge best">First option · All-in-one</span>
           <span class="rank">MIT Sloan</span>
           <h3>Enterprise AI: Strategy, Implementation, and Integration</h3>
           <div class="prov">MIT Sloan Executive Education (via GetSmarter) · Thomas Malone, Paul McDonagh-Smith, Daniela Rus</div>
@@ -375,7 +376,7 @@
       <!-- MIT SLOAN -->
       <article class="card">
         <div class="top">
-          <span class="cardbadge best">Best pick · Adoption</span>
+          <span class="cardbadge fit">Focused adoption</span>
           <span class="rank">MIT Sloan</span>
           <h3>AI Adoption: Driving Business Value and Impact</h3>
           <div class="prov">MIT Sloan (via GetSmarter) · Paul McDonagh-Smith</div>
@@ -836,16 +837,16 @@
     <h2>The first option, then one pick per gap.</h2>
     <div class="three">
       <div class="opt">
-        <h5>Wharton</h5>
-        <p>First option: the board-weight governance credential, with a capstone assessment of one of our own AI systems. One Friday lunch hour a week, starts Sep 25.</p>
+        <h5>MIT Sloan · Enterprise AI</h5>
+        <p>First option and the all-in-one route: strategy, investment valuation, workforce adoption, and agentic implementation in one 17-week MIT Sloan credential.</p>
       </div>
       <div class="opt">
-        <h5>MIT Sloan · Enterprise AI</h5>
-        <p>The all-in-one route: strategy, investment valuation, workforce adoption, and agentic implementation in one 17-week MIT Sloan credential.</p>
+        <h5>Wharton</h5>
+        <p>The board-weight governance option, with a capstone assessment of one of our own AI systems. One Friday lunch hour a week, starts Sep 25.</p>
       </div>
       <div class="opt">
         <h5>MIT Sloan</h5>
-        <p>Best pick for adoption: workforce, org change, and a playbook the rollout can use. Self-paced, done by early October.</p>
+        <p>Focused adoption option: workforce, org change, and a playbook the rollout can use. Self-paced, done by early October.</p>
       </div>
       <div class="opt">
         <h5>Carnegie Mellon</h5>
@@ -876,7 +877,7 @@
         <p>A peer-reviewed transformation project at the lowest live-cohort price.</p>
       </div>
     </div>
-    <p class="verdict">The selection principle: after a year of hands-on building, the only programs worth paying for are the ones teaching what cannot be self-taught. <b>Wharton</b> remains the first option, owning the governance gap with a board-weight name and a capstone assessment of one of our own systems. <b>MIT Sloan Enterprise AI</b> is now the strongest one-program route: it combines strategy, valuation, workforce adoption, and agentic implementation, but costs $8,250 and asks for roughly 100-136 hours over 17 weeks. The shorter <b>MIT Sloan AI Adoption</b> course remains the focused adoption choice. <b>Carnegie Mellon</b> owns the technical gap through validation, red teaming, monitoring, and a live lab. Enterprise AI is the consolidation play; the focused courses remain stronger when depth, calendar fit, or stacking inside the ~$16k budget matters more.</p>
+    <p class="verdict">The selection principle: after a year of hands-on building, the only programs worth paying for are the ones teaching what cannot be self-taught. <b>MIT Sloan Enterprise AI</b> is now the first option and strongest one-program route: it combines strategy, valuation, workforce adoption, and agentic implementation, but costs $8,250 and asks for roughly 100-136 hours over 17 weeks. <b>Wharton</b> owns the governance gap with a board-weight name and a capstone assessment of one of our own systems. The shorter <b>MIT Sloan AI Adoption</b> course remains a focused adoption option. <b>Carnegie Mellon</b> owns the technical gap through validation, red teaming, monitoring, and a live lab. Enterprise AI is the consolidation play; the focused courses remain stronger when depth, calendar fit, or stacking inside the ~$16k budget matters more.</p>
   </section>
 
   <footer>
